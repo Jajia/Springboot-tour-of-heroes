@@ -1,0 +1,7 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    url: jdbc:mysql://122.51.128.86:3306/heroes?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    password: 123456
+    username: root
