@@ -19,4 +19,9 @@ public class HeroServiceImpl implements HeroService {
     public List<Hero> getHeroes() {
         return heroDao.getHeroes();
     }
+
+    @Override
+    public Hero findById(int id) {
+        return heroDao.getHeroById(id);
+    }
 }

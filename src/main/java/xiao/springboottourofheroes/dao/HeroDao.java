@@ -10,4 +10,7 @@ import java.util.List;
 public interface HeroDao {
     @Select("SELECT * FROM heroes")
     List<Hero> getHeroes();
+
+    @Select("SELECT * FROM heroes where id = #{id}")
+    Hero getHeroById(int id);
 }

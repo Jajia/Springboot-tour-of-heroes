@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface HeroService {
     List<Hero> getHeroes();
+
+    Hero findById(int id);
 }
